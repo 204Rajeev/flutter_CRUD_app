@@ -16,6 +16,9 @@ migrate_working_dir/
 *.iws
 .idea/
 
+#backend
+backend/.env
+
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
@@ -43,7 +46,4 @@ app.*.map.json
 /android/app/release
 
 # dart configuration
-flutter_crud/book_app/lib/provider/config.dart
-
-#backend
-flutter_crud/backend/.env
+config.dart
